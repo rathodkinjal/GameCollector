@@ -13,6 +13,8 @@
 		D52B12A41FC94DD10049ACB4 /* GameCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D52B12A21FC94DD10049ACB4 /* GameCollector.xcdatamodeld */; };
 		D52B12A61FC94DD10049ACB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52B12A51FC94DD10049ACB4 /* Assets.xcassets */; };
 		D52B12A91FC94DD10049ACB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52B12A71FC94DD10049ACB4 /* LaunchScreen.storyboard */; };
+		D52B12B31FC9536A0049ACB4 /* call_of_duty_infinite_warfare_possible_new_art_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D52B12B21FC9536A0049ACB4 /* call_of_duty_infinite_warfare_possible_new_art_1.jpg */; };
+		D571A76B1FC9563A00F6AF59 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D571A76A1FC9563A00F6AF59 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D52B12A51FC94DD10049ACB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D52B12A81FC94DD10049ACB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D52B12AA1FC94DD10049ACB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52B12B21FC9536A0049ACB4 /* call_of_duty_infinite_warfare_possible_new_art_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = call_of_duty_infinite_warfare_possible_new_art_1.jpg; sourceTree = "<group>"; };
+		D571A76A1FC9563A00F6AF59 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		D52B129A1FC94DD10049ACB4 /* GameCollector */ = {
 			isa = PBXGroup;
 			children = (
+				D571A76A1FC9563A00F6AF59 /* GameViewController.swift */,
 				D52B129B1FC94DD10049ACB4 /* AppDelegate.swift */,
 				D52B129D1FC94DD10049ACB4 /* ViewController.swift */,
 				D52B129F1FC94DD10049ACB4 /* Main.storyboard */,
 				D52B12A51FC94DD10049ACB4 /* Assets.xcassets */,
+				D52B12B21FC9536A0049ACB4 /* call_of_duty_infinite_warfare_possible_new_art_1.jpg */,
 				D52B12A71FC94DD10049ACB4 /* LaunchScreen.storyboard */,
 				D52B12AA1FC94DD10049ACB4 /* Info.plist */,
 				D52B12A21FC94DD10049ACB4 /* GameCollector.xcdatamodeld */,
@@ -129,6 +135,7 @@
 				D52B12A91FC94DD10049ACB4 /* LaunchScreen.storyboard in Resources */,
 				D52B12A61FC94DD10049ACB4 /* Assets.xcassets in Resources */,
 				D52B12A11FC94DD10049ACB4 /* Main.storyboard in Resources */,
+				D52B12B31FC9536A0049ACB4 /* call_of_duty_infinite_warfare_possible_new_art_1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D571A76B1FC9563A00F6AF59 /* GameViewController.swift in Sources */,
 				D52B12A41FC94DD10049ACB4 /* GameCollector.xcdatamodeld in Sources */,
 				D52B129E1FC94DD10049ACB4 /* ViewController.swift in Sources */,
 				D52B129C1FC94DD10049ACB4 /* AppDelegate.swift in Sources */,
